@@ -1,0 +1,89 @@
+/* NAVBAR */
+
+/* 
+    navbar should be fixed on top
+    giving place to the logo
+    if reflexive, it will turn into burger icom
+*/
+
+/* 
+    designs of list for links in navbar
+    highlight on hover
+    animate recatange on click and return to normal
+*/
+
+/* NAVBAR */
+/* Toolbar Style */
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+mat-sidenav {
+    margin-top: 64px;
+    width: fit-content;
+    position: fixed;
+}
+
+/* Sidenav Container */
+.sidenav-container {
+    height: 100%;
+    margin-top: 64px;
+    /* To avoid overlap with the fixed toolbar */
+}
+
+/* Sections */
+.section {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.section_header {
+    font-size: 32px;
+    padding: auto;
+    font-weight: bold;
+}
+
+
+
+
+/* HOME */
+
+/* 
+    has a tagline on left
+    hero image on right
+    if responsive then orders respectively
+*/
+
+/* ABOUT */
+
+/* 
+    Education
+    Skills
+    Certificates
+*/
+
+/* CONTACT */
+
+/* 
+    Github
+    Email
+    LinkedIn
+
+    Mail message box
+*/
+
+/* MORE */
+
+/* 
+    Hobbies
+    
+*/
+
+/* WORK */
+
+/* 
+    Projects
+*/

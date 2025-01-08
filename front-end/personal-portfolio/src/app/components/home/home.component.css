@@ -1,0 +1,66 @@
+.home-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-body {
+        grid-template-columns: 1fr;
+    }
+}
+
+.hero {
+    font-weight: bold;
+    margin-bottom: 16px;
+    display: block;
+    line-height: 1.2;
+}
+
+.tagline {
+    margin-bottom: 16px;
+    margin-top: 0px;
+    color: #757575;
+}
+
+.action-button {
+    margin-top: 16px;
+}
+
+.home-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-placeholder {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* Makes it a circle */
+    background-image: url('../../assets/images/profile pic 1 - crop.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* Allows positioning for the pseudo-element */
+
+}
+
+.profile-placeholder::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    /* Adjusts the position of the border */
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    /* Keeps the border round */
+    border: 20px solid rgba(38, 41, 41, 1);
+    /* Thicker circular border with semi-transparent color */
+    pointer-events: none;
+    /* Ensures the border is non-interactive */
+
+}
