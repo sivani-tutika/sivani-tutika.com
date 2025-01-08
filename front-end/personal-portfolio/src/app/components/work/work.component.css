@@ -1,0 +1,60 @@
+.conteudo {
+    width: 95%;
+    margin: auto;
+    /* Or whatever width you need */
+}
+
+.carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* Hides the scrollbar (optional) */
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    scroll-snap-align: start;
+    border-radius: 10px;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+/* .card:nth-child(odd) {
+    background: linear-gradient(-229deg, #4b4276, #282346);
+}
+
+.card:nth-child(even) {
+    background: linear-gradient(-229deg, #8751a0, #513063);
+} */
+
+/* Overlay to display title */
+.card .overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin: 0;
+}

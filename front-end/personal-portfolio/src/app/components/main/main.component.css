@@ -21,6 +21,12 @@ mat-toolbar {
     z-index: 1000;
 }
 
+mat-sidenav {
+    margin-top: 64px;
+    width: fit-content;
+    position: fixed;
+}
+
 /* Sidenav Container */
 .sidenav-container {
     height: 100%;
@@ -30,12 +36,13 @@ mat-toolbar {
 
 /* Sections */
 .section {
-    padding: 20px;
-    margin-top: 20px;
+    padding: 1em;
+    margin-top: 1em;
 }
 
 .section_header {
     font-size: 32px;
+    padding: auto;
     font-weight: bold;
 }
 

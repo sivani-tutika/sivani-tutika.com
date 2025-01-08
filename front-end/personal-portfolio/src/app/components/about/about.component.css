@@ -1,0 +1,30 @@
+.about-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 24px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-body {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about-introduction,
+.about-skills,
+.about-details {
+    margin-bottom: 24px;
+}
+
+.about-skills ul,
+.about-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-skills li,
+.about-details li {
+    margin-bottom: 8px;
+}
