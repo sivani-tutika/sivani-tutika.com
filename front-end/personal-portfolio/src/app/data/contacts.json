@@ -1,0 +1,28 @@
+{
+    "externalLinks": [
+        {
+            "icon": "https://cdn-icons-png.flaticon.com/128/732/732200.png",
+            "label": "Email",
+            "link": "mailto:sivanitutika4@gmail.com",
+            "text": "sivanitutika4@gmail.com"
+        },
+        {
+            "icon": "https://cdn-icons-png.flaticon.com/128/5968/5968846.png",
+            "label": "Github",
+            "link": "https://github.com/sivani-tutika",
+            "text": "github.com/sivani-tutika"
+        },
+        {
+            "icon": "https://cdn-icons-png.flaticon.com/128/3536/3536505.png",
+            "label": "LinkedIn",
+            "link": "https://linkedin.com/in/sivani-tutika",
+            "text": "linkedin.com/in/sivani-tutika"
+        },
+        {
+            "icon": "https://cdn-icons-png.flaticon.com/128/5968/5968885.png",
+            "label": "Medium",
+            "link": "https://medium.com/@sivanitutika4",
+            "text": "medium.com/@sivanitutika4"
+        }
+    ]
+}
