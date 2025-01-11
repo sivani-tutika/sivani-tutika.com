@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    flex-wrap: wrap;
 }
 
 .external-links mat-icon {
@@ -77,4 +78,21 @@ textarea {
     width: 24px;
     height: 24px;
     margin-right: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+/* Make the links white */
+.external-links a {
+    color: white;
+    /* Set the text color of the links to white */
+    text-decoration: none;
+    /* Optionally remove the underline from links */
+}
+
+/* Optional: Change the link color on hover */
+.external-links a:hover {
+    color: lightgray;
+    background-color: rgb(82, 87, 87, 0.5);
+    /* Light gray color when hovering over the links */
 }

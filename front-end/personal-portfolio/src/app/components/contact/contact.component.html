@@ -6,8 +6,8 @@
                 <ul>
                     <li *ngFor="let link of contactData.externalLinks">
                         <img [src]="link.icon" class="icon" />
-                        <span>{{ link.label }}:</span>
-                        <a [href]="link.link" target="_blank">{{ link.text }}</a>
+                        <span> {{ link.label }}:</span>
+                        <a [href]="link.link" target="_blank"> {{ link.text }}</a>
                     </li>
                 </ul>
             </mat-card-content>
@@ -15,7 +15,7 @@
     </div>
 
     <!-- Message Box Section -->
-    <div class="message-box">
+    <div class="message-box" hidden>
         <mat-card>
             <mat-card-header>
                 <mat-card-title>Leave your message!</mat-card-title>

@@ -38,8 +38,11 @@
             </mat-card-header>
             <mat-card-content>
                 <ul>
-                    <li *ngFor="let detail of details">
-                        <strong>{{ detail.label }}:</strong> {{ detail.value }}
+                    <li *ngFor="let edu of education">
+                        <strong>{{ edu.Qualification }}</strong>
+                        <span>- {{ edu.Institution }}, {{ edu.Place }}</span>
+                        <br>
+                        <span>Grade: <strong>{{ edu.Grade }}</strong></span>
                     </li>
                 </ul>
             </mat-card-content>
