@@ -1,8 +1,12 @@
 <div class="conteudo">
     <div class="carrousel">
-
         <article class="card" *ngFor="let project of projects">
-            <h1>{{project.title}}</h1>
+            <a [href]="project.link" target="_blank">
+                <img [src]="project.image" class="card-image" />
+                <div class="card-title">
+                    <h3>{{ project.title }}</h3>
+                </div>
+            </a>
         </article>
     </div>
 </div>

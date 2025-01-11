@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "title": "Spaceship Titanic - Predictive analysis",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Optiver - time-series prediction",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Boundary Detection - Image Processing",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Spotify song reccommendation system",
+            "image": "",
+            "link": ""
+        },
+        {
+            "title": "Molecular Property Prediction using GNN",
+            "image": "",
+            "link": ""
+        }
+    ]
+}

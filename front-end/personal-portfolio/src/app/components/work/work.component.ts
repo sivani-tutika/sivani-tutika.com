@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import projectsData from '../../data/projects.json';
 
 @Component({
   selector: 'app-work',
@@ -9,11 +10,10 @@ import { Component } from '@angular/core';
 })
 export class WorkComponent {
 
-  projects = [
-    { title: 'Project 1', image: 'assets/project1.jpg', link: 'https://example.com/project1' },
-    { title: 'Project 2', image: 'assets/project2.jpg', link: 'https://example.com/project2' },
-    { title: 'Project 3', image: 'assets/project3.jpg', link: 'https://example.com/project3' },
-    { title: 'Project 4', image: 'assets/project4.jpg', link: 'https://example.com/project4' }
-  ];
+  projects = projectsData.data.map(item => ({
+    title: item.title,
+    image: item.image || 'assets/default-image.jpg', // Provide a default image if missing
+    link: item.link || '#' // Provide a default link if missing
+  }));
 
 }

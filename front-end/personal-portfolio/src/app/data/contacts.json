@@ -1,0 +1,28 @@
+{
+    "externalLinks": [
+        {
+            "icon": "../../assets/icons/gmail.png",
+            "label": "Email",
+            "link": "mailto:sivanitutika4@gmail.com",
+            "text": "sivanitutika4@gmail.com"
+        },
+        {
+            "icon": "assets/icons/github-mark-white.png",
+            "label": "Github",
+            "link": "https://github.com/sivani-tutika",
+            "text": "github.com/sivani-tutika"
+        },
+        {
+            "icon": "assets/icons/LI-in-Bug.png",
+            "label": "LinkedIn",
+            "link": "https://linkedin.com/in/sivani-tutika",
+            "text": "linkedin.com/in/sivani-tutika"
+        },
+        {
+            "icon": "assets/icons/Medium-Icon-White.svg",
+            "label": "Medium",
+            "link": "https://medium.com/@sivanitutika4",
+            "text": "medium.com/@sivanitutika4"
+        }
+    ]
+}

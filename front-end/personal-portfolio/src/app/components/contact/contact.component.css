@@ -58,3 +58,23 @@ textarea {
     resize: none;
     /* Prevent resizing if not desired */
 }
+
+/* New Style */
+
+.external-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.external-links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}

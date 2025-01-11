@@ -4,27 +4,10 @@
         <mat-card>
             <mat-card-content>
                 <ul>
-                    <li>
-                        <mat-icon color="primary">email</mat-icon>
-                        <span>Email:</span>
-                        <a href="mailto:sivanitutika4&#64;gmail.com">sivanitutika4&#64;gmail.com</a>
-                    </li>
-                    <li>
-                        <mat-icon color="primary">code</mat-icon>
-                        <span>Github:</span>
-                        <a href="https://github.com/sivani-tutika" target="_blank">github.com/sivani-tutika</a>
-                    </li>
-                    <li>
-                        <mat-icon color="primary">business</mat-icon>
-                        <span>LinkedIn:</span>
-                        <a href="https://linkedin.com/in/sivani-tutika"
-                            target="_blank">linkedin.com/in/sivani-tutika</a>
-                    </li>
-                    <li>
-                        <mat-icon color="primary">article</mat-icon>
-                        <span>Medium:</span>
-                        <a href="https://medium.com/&#64;sivanitutika4"
-                            target="_blank">medium.com/&#64;sivanitutika4</a>
+                    <li *ngFor="let link of contactData.externalLinks">
+                        <img [src]="link.icon" class="icon" />
+                        <span>{{ link.label }}:</span>
+                        <a [href]="link.link" target="_blank">{{ link.text }}</a>
                     </li>
                 </ul>
             </mat-card-content>
