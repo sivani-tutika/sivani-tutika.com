@@ -14,6 +14,10 @@
 
 /* NAVBAR */
 /* Toolbar Style */
+* {
+    scroll-behavior: smooth;
+}
+
 mat-toolbar {
     position: fixed;
     top: 0;

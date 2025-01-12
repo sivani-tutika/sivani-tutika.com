@@ -104,7 +104,7 @@
 }
 
 .card-title {
-    background-color: #fff;
+    background-color: #5e5e5e1d;
     padding: 10px;
     text-align: center;
     border-top: 1px solid #eee;
@@ -113,5 +113,5 @@
 .card-title h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #333;
+    color: #ffffff;
 }
