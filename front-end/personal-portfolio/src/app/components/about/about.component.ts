@@ -14,7 +14,11 @@ export class AboutComponent {
     'Machine Learning',
     'Natural Language Processing',
     'Python Programming',
-    'Data Analysis'
+    'Data Analysis',
+    'Data Visualization',
+    'Image Processing',
+    'Deep Learning',
+    'Angular'
   ];
 
   education = [

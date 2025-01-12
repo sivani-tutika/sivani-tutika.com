@@ -1,0 +1,27 @@
+{
+    "About": {
+        "Introduction": "",
+        "Skills": [
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Feature Engineering",
+            "Image Processing",
+            "Natural Language Processing"
+        ],
+        "Skills-details": [
+            {
+                "Domain": "Machine Learning",
+                "Skills": [
+                    "Python",
+                    "pandas",
+                    "scikit",
+                    "numpy"
+                ]
+            },
+            "Artificial Intelligence",
+            "Feature Engineering",
+            "Image Processing",
+            "Natural Language Processing"
+        ]
+    }
+}

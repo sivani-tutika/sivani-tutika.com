@@ -6,9 +6,11 @@ import { AboutComponent } from './components/about/about.component';
 import { WorkComponent } from './components/work/work.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MoreComponent } from './components/more/more.component';
+import { MainComponent } from './components/main/main.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Redirect to Home by default
+  { path: '', redirectTo: '/main', pathMatch: 'full' }, // Redirect to Home by default
+  { path: 'main', component: MainComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'work', component: WorkComponent },

@@ -1,9 +1,10 @@
 .about-body {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    justify-content: space-between;
     grid-gap: 24px;
     padding: 24px;
     border-radius: 8px;
+    align-items: stretch;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,6 +17,7 @@
 .about-skills,
 .about-details {
     margin-bottom: 24px;
+    max-width: fit-content;
 }
 
 .about-skills ul,
