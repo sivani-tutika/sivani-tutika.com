@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "../docs",
+            "outputPath": "../../docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -45,7 +45,8 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "baseHref": "/"
           },
           "configurations": {
             "production": {
