@@ -18,6 +18,18 @@
 
 <!-- Skills Section -->
 <div class="about-body mat-elevation-z4">
+    <div class="about-skills">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>Skills</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <ul>
+                    <li *ngFor="let skill of skills">{{ skill }}</li>
+                </ul>
+            </mat-card-content>
+        </mat-card>
+    </div>
     <!-- Details Section -->
     <div class="about-details">
         <mat-card>
@@ -32,19 +44,6 @@
                         <br>
                         <span>Grade: <strong>{{ edu.Grade }}</strong></span>
                     </li>
-                </ul>
-            </mat-card-content>
-        </mat-card>
-    </div>
-
-    <div class="about-skills">
-        <mat-card>
-            <mat-card-header>
-                <mat-card-title>Skills</mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-                <ul>
-                    <li *ngFor="let skill of skills">{{ skill }}</li>
                 </ul>
             </mat-card-content>
         </mat-card>

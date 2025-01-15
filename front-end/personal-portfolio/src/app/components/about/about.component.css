@@ -1,32 +1,32 @@
 .about-body {
     display: flex;
-    justify-content: space-between;
-    grid-gap: 24px;
-    padding: 24px;
-    border-radius: 8px;
-    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* Adjust space between cards */
+    justify-content: center;
+    /* Center cards */
+    margin: 16px;
 }
 
-@media screen and (max-width: 768px) {
-    .about-body {
-        grid-template-columns: 1fr;
+.about-body .about-skills,
+.about-body .about-details {
+    flex: 1 1 calc(50% - 16px);
+    /* Adjust width and allow wrapping */
+    max-width: 100%;
+    /* Ensure no overflow */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+    .about-body .about-skills,
+    .about-body .about-details {
+        flex: 1 1 100%;
+        /* Full width on smaller screens */
     }
 }
 
-.about-introduction,
-.about-skills,
-.about-details {
-    margin-bottom: 24px;
-    max-width: fit-content;
-}
-
-.about-skills ul,
-.about-details ul {
-    list-style: none;
-    padding: 0;
-}
-
-.about-skills li,
-.about-details li {
-    margin-bottom: 8px;
+mat-card {
+    width: 100%;
+    /* Ensure cards span full width of their container */
 }
