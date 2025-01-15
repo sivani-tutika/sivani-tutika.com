@@ -7,6 +7,10 @@ import { WorkComponent } from './components/work/work.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MoreComponent } from './components/more/more.component';
 import { MainComponent } from './components/main/main.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
+
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/main', pathMatch: 'full' }, // Redirect to Home by default
@@ -20,6 +24,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }]
 })
 export class AppRoutingModule { }

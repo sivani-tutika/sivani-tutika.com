@@ -6,7 +6,7 @@
 </mat-toolbar>
 
 <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav #sidenav mode="side" opened="true">
+    <mat-sidenav #sidenav mode="side" opened="false">
         <mat-nav-list>
             <a mat-list-item href="#home">Home</a>
             <a mat-list-item href="#about">About</a>
@@ -32,12 +32,6 @@
             <h1 class="section_header">Work</h1>
             <app-work></app-work>
         </div>
-
-        <div id="more" class="section" hidden>
-            <h1 class="section_header">More</h1>
-            <app-more></app-more>
-        </div>
-
         <div id="contact" class="section">
             <h1 class="section_header">Contact</h1>
             <app-contact></app-contact>
